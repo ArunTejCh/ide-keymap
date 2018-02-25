@@ -1,0 +1,7 @@
+Shortcuts Mapping:
+Delete Line = Ctrl + D
+Show File Structure = Ctrl + O
+Collapse All = Ctrl + -
+Expand All = Ctrl + +
+Search in Files = Ctrl + Shift + F
+Format code = 
