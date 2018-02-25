@@ -1,0 +1,20 @@
+[core]
+        editor = vim
+
+[alias]
+    s  = status -sb
+    ci = commit
+    br = branch
+    ck = checkout
+    rb = rebase
+    tree = log --graph --full-history --all --color \
+        --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s" --date=short
+    ll = log --pretty=oneline
+    fo = fetch origin
+    fu = fetch upstream
+    rum = rebase upstream/master
+    pufom = push -f origin master
+    reshom = reset --hard origin/master
+    ls = log --pretty=format:'%C(dim magenta)%ad %C(bold white)%s %C(dim green)[%cn]%Creset' --decorate --date=relative --no-merges
+    lf = log --pretty=format:'%C(dim magenta)%ad %C(bold white)%s %C(dim green)[%cn]%Creset' --decorate --date=relative --numstat --no-merges
+    ld = log --pretty=format:"%C(cyan)%h\\ %ad%Cgreen%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
